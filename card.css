@@ -1,0 +1,64 @@
+#cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: start; 
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px ;
+    #card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        #about{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+            padding: 10px 10px;
+            #line{
+                font-size: 10px;
+                color: gray;
+            }
+            #rate{
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: end;
+                #number{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                #text{
+                    font-size: 20px;
+                    color: gray;
+                }
+            }
+            #delivery{
+                font-size: 15px;
+                color: gray;
+            }
+            #rating{
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+                #num{
+                    background-color: green;
+                    color: white;
+                    border-radius: 20px;
+                    padding: 10px 20px;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+                #review{
+                    font-size: 15px;
+                    color: gray;
+                }
+            }
+        }        
+    }
+}
